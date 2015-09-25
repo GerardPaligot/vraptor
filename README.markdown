@@ -5,6 +5,24 @@ VRaptor 3
 A web MVC framework for fast and maintainable development.
 Documentation can be found at http://vraptor3.vraptor.org
 
+Spoon
+=====
+
+original compile:
+```java
+mvn clean install -fn
+```
+
+spoon compile:
+```java
+mvn clean install -P spoon -fn
+```
+
+diversify compile
+```java
+mvn clean install -P diversify-all -fn
+```
+
 Latest version
 ==============
 The latest version is available at https://github.com/caelum/vraptor4
